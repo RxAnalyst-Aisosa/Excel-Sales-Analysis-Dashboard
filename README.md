@@ -84,6 +84,7 @@ Presents the final interactive business dashboard using PivotCharts, KPI cards a
 
 ## Files
 
+- [`Excel_Sales_Analysis_Dashboard.xlsx`](Excel_Sales_Analysis_Dashboard.xlsx) — complete interactive Excel workbook
 - [`analysis-summary.csv`](analysis-summary.csv) — concise KPI and insight summary
 - [`assets/dashboard-preview.svg`](assets/dashboard-preview.svg) — portfolio dashboard preview
 
