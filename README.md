@@ -113,6 +113,18 @@ Presents the final interactive reporting view using KPI cards, charts and slicer
 4. Review the **Analysis** sheet to see the supporting PivotTables.
 5. Review **Sales Data** to understand the underlying records.
 
+## Professional Context
+
+I am a pharmacist with an MSc in Business Analytics and practical experience in real-world healthcare data analysis. My broader analytical work has included healthcare research datasets, statistical analysis and reproducible data workflows, alongside continued development in business intelligence and automation.
+
+This portfolio is designed to show that progression through practical projects rather than list skills without evidence.
+
+## Portfolio Journey
+
+**[Stage 1 — Healthcare Patient Risk Analysis](https://github.com/RxAnalyst-Aisosa/Healthcare-Patient-Risk-Analysis-Dashboard)**  
+→ **[Stage 2 — Coffee Sales Analysis](https://github.com/RxAnalyst-Aisosa/Coffee-Sales-Analysis-Excel-Portfolio-Project)**  
+→ **Stage 3 — Professional Reporting:** this project
+
 ## Portfolio Progression
 
 This project builds on my earlier Excel portfolio work in two important ways.
