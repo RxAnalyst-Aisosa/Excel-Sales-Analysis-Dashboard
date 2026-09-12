@@ -4,6 +4,8 @@
 
 An interactive Microsoft Excel project that converts **2,098 transactional sales records** into a decision-focused dashboard for monitoring revenue, cost, profit, product performance, sales-representative performance, geographic cost patterns and monthly trends.
 
+![Actual Excel Dashboard](assets/dashboard-preview.webp)
+
 ## Executive Summary
 
 The dashboard provides a compact view of business performance and allows users to move from headline KPIs to more detailed operational questions.
@@ -110,6 +112,7 @@ The final interactive reporting layer, combining KPI cards, charts and slicers.
 |---|---|
 | **[Excel_Sales_Analysis_Dashboard.xlsx](Excel_Sales_Analysis_Dashboard.xlsx)** | Complete interactive Excel workbook |
 | **[analysis-summary.csv](analysis-summary.csv)** | Quick reference for headline KPIs and findings |
+| **[Dashboard Preview](assets/dashboard-preview.webp)** | Actual dashboard rendered from the Excel workbook |
 | **[METHODOLOGY.md](docs/METHODOLOGY.md)** | Analytical workflow and business questions |
 | **[DATA_DICTIONARY.md](docs/DATA_DICTIONARY.md)** | Field definitions and core measures |
 
