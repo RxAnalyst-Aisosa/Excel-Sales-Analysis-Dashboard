@@ -1,98 +1,135 @@
 # Excel Sales Analysis Dashboard
 
-An interactive **Microsoft Excel sales analysis project** developed to transform transactional sales data into a clear, decision-focused dashboard.
+> **Excel portfolio project | Sales performance | KPI analysis | PivotTables | PivotCharts | Slicers**
 
-![Sales Analysis Dashboard](assets/dashboard-preview.svg)
+An interactive Microsoft Excel project that converts **2,098 transactional sales records** into a decision-focused dashboard for monitoring revenue, cost, profit, product performance, sales-representative performance, geographic cost patterns and monthly trends.
 
-## Project Overview
+![Excel Sales Analysis Dashboard](assets/dashboard-preview.svg)
 
-This project analyses **2,098 sales records** across products, sales representatives, cities, regions, customer types and sales channels. The workbook combines structured sales data, analytical summaries and an interactive dashboard to make business performance easier to understand.
+## Executive Summary
 
-The dashboard focuses on five core questions:
+The dashboard provides a compact view of business performance and allows users to move from headline KPIs to more detailed operational questions.
 
-- How much revenue, cost and profit did the business generate?
-- Which products contributed the most profit?
-- Which sales representatives generated the most revenue?
-- How did cost of goods sold vary by city?
-- How did profit change month by month?
-
-## Key Performance Indicators
-
-| KPI | Result |
+| KPI | Dashboard Result |
 |---|---:|
 | Total Revenue | **£2.328B** |
 | Total COGS | **£1.863B** |
 | Total Profit | **£465.674M** |
 | Profit Margin | **20.0%** |
-| Number of Customers | **121** |
+| Customer Count | **121** |
 
-## Key Insights
+### Key Findings
 
-- **Peter** generated the highest revenue among the sales representatives shown, at approximately **£434.805M**.
-- **Laptop A13** generated the highest profit among the products shown in the product analysis, at approximately **£105.336M**.
-- **Lagos** recorded the highest COGS among the cities analysed, at approximately **£493.812M**.
-- **March** was the strongest profit month, generating approximately **£126.688M**.
-- Overall profitability remained strong, with a **20% profit margin**.
+- **Peter** generated the highest revenue among the sales representatives shown: **£434.805M**.
+- **Laptop A13** was the highest-profit product in the product analysis: **£105.336M**.
+- **Lagos** recorded the highest COGS among the cities analysed: **£493.812M**.
+- **March** produced the highest monthly profit: **£126.688M**.
+- The dashboard reports an overall **20% profit margin**.
 
-## Dashboard Components
+## Business Questions
 
-The dashboard includes:
+The analysis was designed to answer:
 
-- KPI cards for revenue, COGS, profit, customer count and profit margin
-- Product profitability analysis
-- Revenue by sales representative
-- COGS by city
-- Monthly profit trend
-- Interactive Excel slicers for exploring the data
+1. What are the business's total revenue, COGS and profit?
+2. What is the overall profit margin?
+3. Which products contribute the most profit?
+4. Which sales representatives generate the most revenue?
+5. How does COGS vary by city?
+6. How does profit change across months?
+
+## Analytical Approach
+
+The project follows a simple end-to-end Excel workflow:
+
+**Transactional data → structured analysis → KPI calculations → PivotTables → PivotCharts → interactive dashboard → business insights**
+
+The workbook uses Excel-based analysis to summarise performance across products, sales representatives, cities and months. Slicers make the dashboard interactive and allow users to explore different views without changing the underlying analysis.
+
+For a more detailed walkthrough, see **[Project Methodology](docs/METHODOLOGY.md)**.
+
+## Dataset
+
+The source table contains **2,098 records** and 16 fields covering:
+
+- transaction date
+- sales representative
+- product and category
+- quantity
+- unit price and cost price
+- customer type
+- region and city
+- sales channel
+- revenue
+- COGS
+- profit
+- month index and month label
+
+See the full **[Data Dictionary](docs/DATA_DICTIONARY.md)**.
 
 ## Workbook Structure
 
-### `Sales Data`
-Contains the underlying transactional dataset, including:
+### 1. `Sales Data`
+The underlying transactional dataset used for the analysis.
 
-- Date
-- Sales representative
-- Product and category
-- Quantity
-- Unit price and cost price
-- Customer type
-- Region and city
-- Sales channel
-- Revenue
-- COGS
-- Profit
+### 2. `Analysis`
+Contains KPI summaries and PivotTable outputs for:
 
-### `Analysis`
-Contains the KPI summaries and PivotTable outputs used to support the dashboard.
+- Product by Profit
+- Sales Representative by Revenue
+- City by COGS
+- Profit by Month
 
-### `Dashboard`
-Presents the final interactive business dashboard using PivotCharts, KPI cards and slicers.
+### 3. `Dashboard`
+The final interactive reporting layer, combining KPI cards, charts and slicers.
 
-## Tools & Skills Demonstrated
+## Dashboard Features
+
+- KPI cards for headline performance
+- Product profitability analysis
+- Revenue comparison by sales representative
+- COGS comparison by city
+- Monthly profit analysis
+- Interactive slicers
+- Clear separation of raw data, analysis and dashboard layers
+
+## Skills Demonstrated
 
 - Microsoft Excel
-- Data cleaning and preparation
+- Data preparation and structuring
 - Excel Tables
 - PivotTables
 - PivotCharts
 - Slicers
 - KPI development
-- Business data analysis
+- Business performance analysis
 - Dashboard design
 - Data visualisation
 - Insight communication
 
-## Files
+## Project Files
 
-- [`Excel_Sales_Analysis_Dashboard.xlsx`](Excel_Sales_Analysis_Dashboard.xlsx) — complete interactive Excel workbook
-- [`analysis-summary.csv`](analysis-summary.csv) — concise KPI and insight summary
-- [`assets/dashboard-preview.svg`](assets/dashboard-preview.svg) — portfolio dashboard preview
+| File | Purpose |
+|---|---|
+| **[Excel_Sales_Analysis_Dashboard.xlsx](Excel_Sales_Analysis_Dashboard.xlsx)** | Complete interactive Excel workbook |
+| **[analysis-summary.csv](analysis-summary.csv)** | Quick reference for headline KPIs and findings |
+| **[Dashboard Preview](assets/dashboard-preview.svg)** | GitHub-friendly project preview |
+| **[METHODOLOGY.md](docs/METHODOLOGY.md)** | Analytical workflow and business questions |
+| **[DATA_DICTIONARY.md](docs/DATA_DICTIONARY.md)** | Field definitions and core measures |
 
-## About This Project
+## How to Explore the Project
 
-This project was completed as part of my practical data analytics development with **TS Academy**. It demonstrates my ability to take a raw sales dataset through analysis and present the results in an accessible dashboard designed for business decision-making.
+1. Download **[Excel_Sales_Analysis_Dashboard.xlsx](Excel_Sales_Analysis_Dashboard.xlsx)**.
+2. Open the workbook in Microsoft Excel.
+3. Start with the **Dashboard** sheet for the visual overview.
+4. Use the slicers to explore the dashboard interactively.
+5. Review the **Analysis** sheet to see the supporting PivotTable summaries.
+6. Review **Sales Data** to understand the underlying transactional records.
+
+## Project Context
+
+This project was completed as part of my practical data analytics development with **TS Academy**. The aim was to demonstrate the ability to move from transactional data to an interactive business dashboard and communicate meaningful findings clearly.
 
 ---
 
-**Author:** Elizabeth Erhunmwunsee  
-**Portfolio focus:** Data Analysis | Excel | Business Intelligence
+**Elizabeth Erhunmwunsee**  
+*Data Analysis | Excel | Business Intelligence*
