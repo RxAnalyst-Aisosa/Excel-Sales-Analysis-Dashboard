@@ -2,7 +2,7 @@
 
 An interactive **Microsoft Excel sales analysis project** developed to transform transactional sales data into a clear, decision-focused dashboard.
 
-![Sales Analysis Dashboard](assets/dashboard-preview.png)
+![Sales Analysis Dashboard](assets/dashboard-preview.svg)
 
 ## Project Overview
 
@@ -84,8 +84,8 @@ Presents the final interactive business dashboard using PivotCharts, KPI cards a
 
 ## Files
 
-- [`Excel_Sales_Analysis_Dashboard.xlsx`](Excel_Sales_Analysis_Dashboard.xlsx) — complete interactive Excel workbook
-- [`assets/dashboard-preview.png`](assets/dashboard-preview.png) — dashboard preview
+- [`analysis-summary.csv`](analysis-summary.csv) — concise KPI and insight summary
+- [`assets/dashboard-preview.svg`](assets/dashboard-preview.svg) — portfolio dashboard preview
 
 ## About This Project
 
